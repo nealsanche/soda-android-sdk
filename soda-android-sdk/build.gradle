@@ -15,7 +15,7 @@ buildscript {
         maven { url 'http://repo1.maven.org/maven2' }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.12.+'
+        classpath 'com.android.tools.build:gradle:1.1.0'
     }
 }
 
@@ -35,6 +35,5 @@ android {
     defaultConfig {
         minSdkVersion 9
         targetSdkVersion 19
-        testPackageName "com.socrata.android.tests"
     }
 }
